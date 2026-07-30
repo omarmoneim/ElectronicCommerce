@@ -5,8 +5,4 @@
     <Project Path="src/ECommerce.Infrastructure/ECommerce.Infrastructure.csproj" />
     <Project Path="src/ECommerce.UseCases/ECommerce.UseCases.csproj" />
   </Folder>
-  <Folder Name="/tests/">
-    <Project Path="tests/ECommerce.ArchitectureTests/ECommerce.ArchitectureTests.csproj" />
-    <Project Path="tests/ECommerce.UseCases.Tests/ECommerce.UseCases.Tests.csproj" />
-  </Folder>
 </Solution>

@@ -57,10 +57,9 @@ try
     app.MapAuthEndpoints(apiVersionSet);
     app.MapUserEndpoints(apiVersionSet);
     app.MapProductEndpoints(apiVersionSet);
-    app.MapTypeEndpoints(apiVersionSet);
+    app.MapCategoryEndpoints(apiVersionSet);
     app.MapBrandEndpoints(apiVersionSet);
-    // app.MapBasketEndpoints(apiVersionSet);
-    // app.MapDeliveryMethodEndpoints(apiVersionSet);
+
     app.MapOrderEndpoints(apiVersionSet);
     app.MapPaymentEndpoints(apiVersionSet);
 

@@ -9,9 +9,9 @@ using ECommerce.UseCases.Types.Queries.GetAllTypes;
 
 namespace ECommerce.API.Endpoints;
 
-public static class TypeEndpoints
+public static class CategoryEndpoints
 {
-    public static IEndpointRouteBuilder MapTypeEndpoints(
+    public static IEndpointRouteBuilder MapCategoryEndpoints(
         this IEndpointRouteBuilder endpoints,
         ApiVersionSet apiVersionSet)
     {

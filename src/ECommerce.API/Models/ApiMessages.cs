@@ -2,12 +2,7 @@ namespace ECommerce.API.Models;
 
 public static class ApiMessages
 {
-    public const string BasketRetrieved = "Basket retrieved successfully.";
-    public const string BasketItemAdded = "Item added to basket successfully.";
-    public const string BasketItemUpdated = "Basket item quantity updated successfully.";
-    public const string BasketItemRemoved = "Item removed from basket successfully.";
-    public const string BasketCleared = "Basket cleared successfully.";
-    public const string BasketMerged = "Anonymous basket merged successfully.";
+
     public const string Registered = "Registered successfully.";
     public const string LoggedIn = "Logged in successfully.";
     public const string TokenRefreshed = "Tokens refreshed successfully.";
@@ -28,9 +23,4 @@ public static class ApiMessages
     public const string OrderCancelled = "Order cancelled successfully.";
     public const string PaymentIntentCreated = "Payment intent created successfully.";
 
-    public const string DeliveryMethodsRetrieved = "Delivery methods retrieved successfully.";
-    public const string DeliveryMethodRetrieved = "Delivery method retrieved successfully.";
-    public const string DeliveryMethodCreated = "Delivery method created successfully.";
-    public const string DeliveryMethodUpdated = "Delivery method updated successfully.";
-    public const string DeliveryMethodDeleted = "Delivery method deleted successfully.";
 }
